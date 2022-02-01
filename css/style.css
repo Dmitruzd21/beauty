@@ -6,7 +6,7 @@ body {
 }
 .wrapper {
     min-width: 1110px;
-    padding-left: 15px;
+    padding-left: 75px;
     padding-right: 15px;
     margin: 0 auto;
 }
@@ -48,11 +48,16 @@ body {
     background-image: url(/img/logo.svg);
     margin-right: 20px;
 }
+.header-info {
+    padding-right: 160px;
+}
 .header-info span {
     font-size: 16px;
+    font-weight: 500;
 }
 .header-info button {
     font-size: 14px;
+    font-weight: 500;
     border-radius: 20px;
     border: 2px solid #66C05D;
     background-color: transparent;
@@ -65,8 +70,9 @@ body {
     background-color: #66C05D;
 }
 .header-bottom {
-    padding: 20px 0 27px 0;
+    padding: 2px 0 2px 0;
     font-size: 16px;
+    font-weight: 500;
 }
 .header-bottom.nav {
     font-size: 16px;
@@ -127,10 +133,10 @@ color: #333333;
     display: flex;
     justify-content: space-between;
 }
-.bg-geen-item {
+.bg-green-item {
   flex: 0 0 55%;
 }
-.bg-geen-img {
+.bg-green-img {
     flex: 0 0 31%;
     text-align: center;
   }
@@ -162,7 +168,7 @@ color: #333333;
     padding: 8px 0;
 }
 .catalog {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 133px;
 }
 .grid {
@@ -228,6 +234,7 @@ color: #333333;
 }
 .footer-info span {
     font-size: 16px;
+    font-weight: 500;
     margin-left: 250px;
 }
 .footer-info {
@@ -236,10 +243,12 @@ color: #333333;
 }
 .footer-info span:first-child {
     font-size: 14px;
+    font-weight: 500;
     margin-left: 0;
 }
 .footer-info button {
     font-size: 14px;
+    font-weight: 500;
     border-radius: 20px;
     border: 2px solid #66C05D;
     background-color: transparent;
